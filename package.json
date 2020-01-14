@@ -1,0 +1,26 @@
+{
+  "name": "rental_finder",
+  "version": "1.0.0",
+  "description": "Helping find rentals by webscrapping different rental websites",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandalas/RentalFinder.git"
+  },
+  "author": "Alexandra Robledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bandalas/RentalFinder/issues"
+  },
+  "homepage": "https://github.com/bandalas/RentalFinder#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "get-urls": "^9.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
