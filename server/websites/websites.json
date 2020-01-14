@@ -1,0 +1,8 @@
+{
+    "http://apartments.com": {
+        "query" : "http://apartments.com/`${city}`",
+        "query-max-price": "/under-`${price}`",
+        "query-filters": "/`${filter}`-",
+        "filters": ["washer-dryer","dishwasher"]
+    }
+}
